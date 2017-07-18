@@ -21,7 +21,7 @@
 const CLLocationDegrees AIRMapDefaultSpan = 0.005;
 const NSTimeInterval AIRMapRegionChangeObserveInterval = 0.1;
 const CGFloat AIRMapZoomBoundBuffer = 0.01;
-const NSInteger AIRMapMaxZoomLevel = 0;
+const NSInteger AIRMapMaxZoomLevel = 20;
 
 
 @interface MKMapView (UIGestureRecognizer)
